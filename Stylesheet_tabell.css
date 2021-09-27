@@ -1,0 +1,34 @@
+#tabell_1,th,td {
+    border: 1px solid;
+}
+#tabell_1{
+    width: 100%;
+    height: 50px;
+}
+
+#tabell_2,th,td{
+    border: 1px solid;
+}
+#tabell_2 {
+    width: 100%;
+    height: 50px;
+}
+th{
+    text-align: center;
+    width: 100px;
+}
+td{
+    text-align: left;
+    width: 100px;
+}
+
+#tabell_3,th,td {
+    border: 1px solid;
+}
+#tabell_3{
+    width: 100%;
+    height: 50px;
+    
+}
+tr:nth-child(even) {background-color:pink;}
+

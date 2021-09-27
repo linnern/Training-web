@@ -1,0 +1,75 @@
+*{
+    margin: auto;
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap');
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
+    background-blend-mode: multiply,multiply;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    height: 5rem;
+    align-items: center;
+    list-style-type: none;
+    font-family: 'Teko', sans-serif;
+    font-weight: 600;
+}
+
+.nav-text {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: -50px;
+}
+
+.left-side {
+    display: grid;
+    text-align: center;
+    margin-top: 150px;
+}
+
+ h1, p {
+    margin: 20px;
+    color: black;
+}
+
+h1 {
+    font-family: 'Teko', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+p {
+    font-family: 'Teko', sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+
+.right-side {
+    display: grid;
+    margin-top: 150px;
+}
+
+.img {
+    margin: 20px;
+}
+
+.tabell {
+    font-family: 'Teko', sans-serif;
+    font-weight: 300;
+    padding: 5px;
+}
